@@ -4,14 +4,14 @@ import Navigation from './Navigation';
 import Footer from './Footer';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-import About from './pages/About';
+import AboutMe from './pages/About';
 
 export default function Container() {
-    const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('About Me');
   
     const renderPage = () => {
-      if (currentPage === 'About') {
-        return <About />;
+      if (currentPage === 'About Me') {
+        return <AboutMe />;
       }
       if (currentPage === 'Portfolio') {
         return <Portfolio />;

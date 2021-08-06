@@ -1,5 +1,5 @@
 body {
-    background-color: #D9CAB3;
+    background-color: #b3ced9;
     font-family: "Baskerville", "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
     font-size: 20px;
     line-height: 1.5;
@@ -9,13 +9,13 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #BC8034;
+    background-color: #b6d4a5;
     color: #D9CAB3;
     margin: 0;
   }
   
   .navbar-brand {
-    color: #D9CAB3;
+    color: #1b1a18;
     font-size: 92px;
   }
   
@@ -29,22 +29,20 @@ body {
   .footer {
     margin-top: 2rem;
     padding: 1rem;
-    background-color:#D9CAB3;
+    background-color:#b3ced9;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    color: white;
+    color: rgb(18, 18, 18);
   }
   
   
-  #headshot {
-    height: 300px;
+  #profile_pic {
+    height: 200px;
     padding-bottom: 3px;
-    margin-left: 5%;
-    margin-right: 5%;
     float: left;
-    /* border-radius: 50%; */
+    border-radius: 10%;
   }
   
   a {
@@ -53,24 +51,20 @@ body {
   }
   
   h1 {
-    color: white;
+    color: black;
     text-align: center;
     padding: 35px;
     font-size: 40px;
   }
   h2, h3, h4, h5, h6 {
     font-family: "Baskerville", "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
-    color: #5E0B15;
+    color: #c3aaad;
   }
   
   
   h2 {
     font-size: 200%;
   }
-  
-  /*end Body and Header*/
-  
-  /*Main*/
   
   .flex-column {
     display: flex;
@@ -108,7 +102,6 @@ body {
   .about-me-container {
     padding: 20px;
     margin-right: 5%;
-    /* margin-bottom: 5px; */
   }
   
   .contact-me-container {
@@ -120,7 +113,6 @@ body {
     margin-bottom: 5px;
   }
   
-  /* Work History*/
   
   .card {
     margin: 10px;
@@ -148,13 +140,9 @@ body {
     text-align: center;
   }
   
-  /* End Work History*/
-  
-  /* Contact Me */
-  
   label {
   margin-right: 3%;
-  color: white;
+  color: black;
   }
   .contact-information {
     margin-left: 30px;
@@ -188,7 +176,7 @@ body {
   }
   
   button {
-    color: #D9CAB3;
-    background-color: #BC8034;
+    color: #171716;
+    background-color: #b3ced9;
   }
   
