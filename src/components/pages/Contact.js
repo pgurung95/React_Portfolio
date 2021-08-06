@@ -8,14 +8,14 @@ export default function Contact() {
             <div className="contact-me-container row">
                 <div className="address-card col-sm-6">
                     <div className="card-body">
-                        <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                        <h2 className="title-font font-semibold text-black tracking-widest text-xs">
                             EMAIL
                         </h2>
                         <p><a href="mailto:grgprashant95@gmail.com">
                             grgprashant95@gmail.com
                         </a>
                         </p>
-                        <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                        <h2 className="title-font font-semibold text-black tracking-widest text-xs">
                             PHONE
                         </h2>
                         <p>4443-813-6156</p>
@@ -26,7 +26,7 @@ export default function Contact() {
                     <div className="card-body">
                         <form className="connect-form">
                             <div className="relative mb-4">
-                                <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+                                <label htmlFor="name" className="leading-7 text-sm text-black-400">
                                     Name
                                 </label>
                                 <input
@@ -37,26 +37,26 @@ export default function Contact() {
                                 />
                             </div>
                             <div className="relative mb-4">
-                                <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+                                <label htmlFor="email" className="leading-7 text-sm text-black-400">
                                     Email
                                 </label>
                                 <input
                                     type="email"
                                     id="email"
                                     name="email"
-                                    className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                                    className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                 />
                             </div>
                             <div className="relative mb-4">
                                 <label
                                     htmlFor="message"
-                                    className="leading-7 text-sm text-gray-400">
+                                    className="leading-7 text-sm text-black-400">
                                     Message
                                 </label>
                                 <textarea
                                     id="message"
                                     name="message"
-                                    className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                                    className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-black-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                                 />
                             </div>
                             <button

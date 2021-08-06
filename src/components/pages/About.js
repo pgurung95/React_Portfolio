@@ -1,7 +1,7 @@
 import React from 'react';
 import ProfilePic from '../../assets/profile_pic.jpg';
 
-export default function About() {
+export default function AboutMe() {
     return (
         <div>
             <h1>About Me</h1>
