@@ -1,0 +1,194 @@
+body {
+    background-color: #D9CAB3;
+    font-family: "Baskerville", "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #BC8034;
+    color: #D9CAB3;
+    margin: 0;
+  }
+  
+  .navbar-brand {
+    color: #D9CAB3;
+    font-size: 92px;
+  }
+  
+  .nav-item {
+    margin-top: 5%;
+    float: right;
+    font-family: "Baskerville", "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    font-size: 20px;
+  }
+  
+  .footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color:#D9CAB3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+  }
+  
+  
+  #headshot {
+    height: 300px;
+    padding-bottom: 3px;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+    /* border-radius: 50%; */
+  }
+  
+  a {
+    color: #90323D;
+    text-decoration: none;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    padding: 35px;
+    font-size: 40px;
+  }
+  h2, h3, h4, h5, h6 {
+    font-family: "Baskerville", "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    color: #5E0B15;
+  }
+  
+  
+  h2 {
+    font-size: 200%;
+  }
+  
+  /*end Body and Header*/
+  
+  /*Main*/
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 50px;
+  }
+  
+  .container {
+    margin: 2% 30px;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .heading {
+    flex: 0 0 20%;
+    justify-content: space-between;
+    padding-right: 3%;
+    align-items: flex-start;
+    border-width: 0 2px 0 0;
+    border-color: #8C7A6B;
+    border-style: solid;
+    text-align: right;
+  }
+  
+  p {
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 18px;
+  }
+  
+  .about-me-container {
+    padding: 20px;
+    margin-right: 5%;
+    /* margin-bottom: 5px; */
+  }
+  
+  .contact-me-container {
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+  }
+  
+  /* Work History*/
+  
+  .card {
+    margin: 10px;
+    border: 5px #BC8034 solid;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .row {
+    margin-left: 3px;
+  }
+  
+  .card:hover {
+    box-shadow: inset 0px 0px 8px #BC8034, 0 0 15px #BC8034;
+  }
+  
+  .image-container img {
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .overlay {
+    text-align: center;
+  }
+  
+  /* End Work History*/
+  
+  /* Contact Me */
+  
+  label {
+  margin-right: 3%;
+  color: white;
+  }
+  .contact-information {
+    margin-left: 30px;
+    display: flex;
+  }
+  
+  .contact-information nav {
+    border-width: 0 2px 0 0;
+    border-color: #5E0B15;
+    padding-top: 45px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .contact-information nav ul {
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+  }
+  
+  .contact-information nav ul li {
+    display: inline-block;
+    margin-left: 80px;
+  }
+  .contact-information a {
+    border-bottom: 2px solid #903;
+    padding-bottom: 2px;
+  }
+  
+  button {
+    color: #D9CAB3;
+    background-color: #BC8034;
+  }
+  
